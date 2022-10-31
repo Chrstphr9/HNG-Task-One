@@ -10,6 +10,7 @@ const Profile = () => {
     <div>
         <img src={image1} id="profile_img" alt='la casa'/>
         <h1 id="header">Christopher Anigbo</h1>
+        <div id="slack"> Chrstphr</div>
 
         <div id="share">
           <FaShare/>
@@ -19,7 +20,7 @@ const Profile = () => {
         </div>
        
         <div className='btn-cont'>
-        <a href='https://twitter.com/Chrstphr_Wlkngs' id="twitter">Twitter Link</a>
+        <a href='https://twitter.com/Chrstphr_Wlkngs' id="twitter">Chrstphr_Wlkngs</a>
         <a href="https://training.zuri.team/">Zuri Team</a>
         <a href='http://books.zuri.team'id='books'>Zuri Books </a>
         <a href='https://books.zuri.team/' id="python_book">Python Books</a>
@@ -29,7 +30,7 @@ const Profile = () => {
 
     <div className='Logo'>
       <li id="github"> <FaGithub size={30}/> </li>
-      <li id="slack"> <FaSlack size={30}/> </li>
+      <li id="slack1"> <FaSlack size={30}/> </li>
     </div>
 
     <div className='footer'>
