@@ -2,21 +2,24 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 #profile_img {
-    width: 10%;
-    height: 0%;
+    width: 5rem;
+    height: 5rem;
     display: block;
     align-items: center;
     margin: auto;
-    border-radius: 55%;
+    border-radius: 50%;
+    margin-top: 1.5rem;
     justify-content: content;
 }
 
 #header {
     text-align: center;
     font-size: 30px;
+    margin-bottom: 4rem;
 }
 
 #btn_zuri {
@@ -27,29 +30,187 @@
 }
 
 .btn-cont{
-    width: 100vw;
-    text-align: center;
     display: block;
+    align-items: center;
     justify-content: center;
+    text-align: center;
+}
+
+#share{
+    display: flex;
+    float: right;
+    margin-right: 370px;
+    margin-top: -180px;
+    max-width: 400px;
+}
+#menu {
+    display: flex;
+    float: right;
+    margin-right: 370px;
+    margin-top: -180px;
+    max-width: 400px;
+    display: none
 }
 
 .btn-cont a{
-    width: 70vw;
-    text-align: center; 
+    width: 50vw;
     display: block;
-    justify-content: center;
+    text-align: center;
     color: black;
-    font-weight: 480;
-    padding: 10px;
+    font-weight: 550;
+    padding: 15px;
     margin-bottom: 10px;
+    background: rgba(26, 25, 25, 0.13);
     border-radius: 6px;
-    background: rgba(168, 163, 163, 0.13);
-    border: 0.5px solid rgb(197, 196, 196);
-    margin-left: 200px;
-    text-decoration: none; 
+    margin-left: 320px;
+    text-decoration: none;
+    
 }
 
 .btn-cont a:hover {
     background: rgba(67, 67, 70, 0.336);
     color: black;
 }
+
+#logo-img {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 4px;
+}
+
+.Logo{
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.Logo li {
+    list-style: none;
+    display: inline-block;
+}
+
+#github{
+    margin-right: -4rem;
+}
+
+#slack {
+    margin-right: 1rem;
+}
+
+.footer{
+    display: flex;
+    margin-top: 3rem;
+    border-top: 1px solid #8080806b;
+    padding: 30px;
+    
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#right{
+    display: flex;
+    width: 20%; 
+}
+
+#left{
+    width: 40%;
+    margin-left: 9rem;
+}
+
+#center{
+    width: 40%;
+    margin-left: -5rem;
+    
+}
+.col {
+    color: red;
+}
+
+.light{
+    color: rgba(0, 0, 0, 0.438);
+}
+
+@media screen and (max-width: 425px) {
+    .btn-cont a{
+        padding-bottom: 20px;  
+        }
+    
+        .btn-cont a{
+            width: 50vw;
+            display: block;
+            text-align: center;
+            color: black;
+            font-weight: 550;
+            padding: 5px;
+            margin-bottom: 10px;
+            background: rgba(26, 25, 25, 0.13);
+            border-radius: 6px;
+            margin-left: 100px;
+            text-decoration: none;
+            
+        }
+    
+    .btn-cont a:hover {
+        background: #43434656;
+        color: black;
+        border: 0.5px solid #525151b2;
+    }
+
+    .btn-cont a{
+        padding-bottom: 20px;  
+        }
+    .footer {
+        display: block;
+        padding: 0px;
+        text-align: center;
+    }
+
+    #share{
+        display: flex;
+        float: right;
+        margin-right: 30px;
+        margin-top: -180px;
+        max-width: 400px;
+        display: none;
+    }
+
+    #menu{
+        display: flex;
+        float: right;
+        margin-right: 30px;
+        margin-top: -180px;
+        max-width: 400px;
+    }
+
+    #right{
+        display: flex;
+        width: 20%;
+        text-align: center;
+        
+    }
+
+     #center{
+        display: inline;
+        margin-left: -11rem;
+
+       
+    }
+
+    #left{
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    #logo-img {
+        margin-top: 3px;
+    }
+}
+    
+    
+
+
