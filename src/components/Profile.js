@@ -35,16 +35,16 @@ const Profile = () => {
 
     <div className='footer'>
          <div id='left'>
-        <a href='#'>Zuri.Internship</a>
+        <a href='https://hngi9.zuriboard.com/'>Zuri.Internship</a>
         </div>
 
         <div id='center'>
-        <a href='#'>HNG Internship 9 Frontend Task</a>
+        <a href='https://hngi9.zuriboard.com/'>HNG Internship 9 Frontend Task</a>
         </div>
 
         <div id='right'> 
         <img src={map} alt='any' id='logo-img' />
-        <a href='#'>INGRESSIVE <br></br> FOR GOOD</a>
+        <a href='https://ingressive.org/'>INGRESSIVE <br></br> FOR GOOD</a>
         </div>
 
     </div>
