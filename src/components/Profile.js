@@ -21,7 +21,7 @@ const Profile = () => {
        
         <div className='btn-cont'>
         <a href='https://twitter.com/Chrstphr_Wlkngs'>Chrstphr_Wlkngs</a>
-        <a href="https://training.zuri.team/">Zuri Team</a>
+        <a href="https://training.zuri.team/" id="btn__zuri">Zuri Team</a>
         <a href='http://books.zuri.team'id='books'>Zuri Books </a>
         <a href='https://books.zuri.team/' id="python_book">Python Books</a>
         <a href='https://background.zuri.team' id="pitch">Background Check for Coders</a>
