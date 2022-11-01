@@ -7,9 +7,9 @@ import { HiOutlineDotsCircleHorizontal} from "react-icons/hi"
 const Profile = () => {
   return (
 
-    <div>
+    <div id="profile_component">
         <img src={image1} id="profile_img" alt='la casa'/>
-        <h1 id="header">Christopher Anigbo</h1>
+        <h1 id="twitter">Christopher Anigbo</h1>
         <div id="slack"> Chrstphr</div>
 
         <div id="share">
@@ -20,12 +20,12 @@ const Profile = () => {
         </div>
        
         <div className='btn-cont'>
-        <a href='https://twitter.com/Chrstphr_Wlkngs' id="twitter">Chrstphr_Wlkngs</a>
-        <a href="https://training.zuri.team/">Zuri Team</a>
+        <a href='https://twitter.com/Chrstphr_Wlkngs'>Chrstphr_Wlkngs</a>
+        <a href="https://training.zuri.team/" id="btn_zuri">Zuri Team</a>
         <a href='http://books.zuri.team'id='books'>Zuri Books </a>
         <a href='https://books.zuri.team/' id="python_book">Python Books</a>
         <a href='https://background.zuri.team' id="pitch">Background Check for Coders</a>
-        <a href='https://books.zuri.team/design-rules'id="design_book">Design Books </a>
+        <a href='https://books.zuri.team/design-rules'id="book_design">Design Books </a>
     </div>
 
     <div className='Logo'>
@@ -46,9 +46,7 @@ const Profile = () => {
         <img src={map} alt='any' id='logo-img' />
         <a href='https://ingressive.org/'>INGRESSIVE <br></br> FOR GOOD</a>
         </div>
-
     </div>
-    
     </div>
     
   )
