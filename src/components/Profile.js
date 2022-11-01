@@ -21,11 +21,11 @@ const Profile = () => {
        
         <div className='btn-cont'>
         <a href='https://twitter.com/Chrstphr_Wlkngs'>Chrstphr_Wlkngs</a>
-        <a href="https://training.zuri.team/" id="btn_zuri">Zuri Team</a>
+        <a href="https://training.zuri.team/">Zuri Team</a>
         <a href='http://books.zuri.team'id='books'>Zuri Books </a>
         <a href='https://books.zuri.team/' id="python_book">Python Books</a>
         <a href='https://background.zuri.team' id="pitch">Background Check for Coders</a>
-        <a href='https://books.zuri.team/design-rules'id="book_design">Design Books </a>
+        <a href='https://books.zuri.team/design-rules'id="design_book">Design Books </a>
     </div>
 
     <div className='Logo'>
@@ -46,6 +46,7 @@ const Profile = () => {
         <img src={map} alt='any' id='logo-img' />
         <a href='https://ingressive.org/'>INGRESSIVE <br></br> FOR GOOD</a>
         </div>
+
     </div>
     </div>
     
