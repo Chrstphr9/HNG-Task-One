@@ -3,6 +3,7 @@ import image1 from "./asset/image1.jpeg";
 import map from "./asset/map.jpg";
 import { FaGithub, FaSlack, FaShare } from "react-icons/fa";
 import { HiOutlineDotsCircleHorizontal } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Profile = () => {
   return (
@@ -35,9 +36,7 @@ const Profile = () => {
         <a href="https://books.zuri.team/design-rules" id="design_book">
           Design Books{" "}
         </a>
-        <a>
-          Contact Me{" "}
-        </a>
+       <Link to="/Contact"> Contact</Link>
       </div>
 
       <div className="Logo">
