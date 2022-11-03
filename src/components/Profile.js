@@ -35,6 +35,9 @@ const Profile = () => {
         <a href="https://books.zuri.team/design-rules" id="design_book">
           Design Books{" "}
         </a>
+        <a>
+          Contact Me{" "}
+        </a>
       </div>
 
       <div className="Logo">
